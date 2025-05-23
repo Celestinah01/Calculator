@@ -1,7 +1,7 @@
-* {
+*{
     box-sizing: border-box;
 }
-
+* 
 html, body {
     margin: 0;
     padding: 0;
@@ -20,8 +20,9 @@ body{
 
 }
 #calculator {
-    position: relative;
-    width: 320px;
+    
+    width: 450px;
+    height: 480px;
     background: #1c1c11;
     border-radius: 30px;
     padding: 20px;
@@ -37,23 +38,17 @@ body{
     
 }
 #display {
-    height: 80px;
-    width: 90%;
+    height: 60px;
+    width: 95%;
     color: white;
     font-size: 30px;
     text-align: right;
     padding: 10px;
     background: #1c1c11;
     border-radius: 10px;
-    overflow-x: auto;
     border: 1px solid #1c1c11;
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    right: 20px;
-   
-   
-
+    position: relative;
+    
 
 }
 .btn{
@@ -64,6 +59,7 @@ body{
     background: #333;
     color: white;
     cursor: pointer;
+    
 
 
 }
@@ -102,14 +98,11 @@ color: #fff;
 }
 
 @media (max-width: 480px) {
-    html, body {
+     html, body {
         height: 100vh;
         margin: 0;
         padding: 0;
         overflow: hidden;
-    }
+    } 
     
-    
-    
-    }
 }
